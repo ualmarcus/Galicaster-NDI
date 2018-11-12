@@ -1,13 +1,20 @@
 # Galicaster-NDI
-Documentation for installation of a https://teltek.es Galicaster Lecture Capture agent for NewTek NDI [https://www.newtek.com/ndi/tools/] sources with https://opencast.org 
+Documentation for installation of a https://teltek.es Galicaster Lecture Capture agent for NewTek NDI sources with https://opencast.org 
 
-Resources Required:
+Resources Required [Ubuntu]:
 
 [1] https://github.com/teltek/gst-plugin-ndi
 
 [2] https://github.com/teltek/gst-plugin-ndi/releases
 
 [3] https://github.com/teltek/Galicaster/tree/master
+
+
+Windows / Mac OS NewTek NDI Tools:
+
+[4] https://www.newtek.com/ndi/tools
+
+[5] http://www.sienna-tv.com/ndi/ 
 
 
 Install Guide 64 Bit Ubuntu:
