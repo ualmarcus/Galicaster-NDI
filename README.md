@@ -1,5 +1,5 @@
 # Galicaster-NDI
-Documentation for installation of a Teltek Galicaster Lecture Capture agent for NDI sources with https://opencast.org 
+Documentation for installation of a https://teltek.es Galicaster Lecture Capture agent for NDI sources with https://opencast.org 
 
 Resources Required:
 
