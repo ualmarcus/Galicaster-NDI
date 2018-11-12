@@ -21,22 +21,6 @@ Restart to enable vm tools with:
 sudo shutdown -r now
 
 
-[note - deviate from the Galicaster documentation - works with 16.04.5 LTS but breaks open VM tools] 
-
-Run Galicaster specific Ubuntu fixes:
-
-Once the installation of Ubuntu is done, it's necessary to install:
-
-sudo apt remove  xserver-xorg-core-hwe-16.04
-sudo apt install ubuntu-desktop xorg xserver-xorg-core #Fix #543
-
-Due to a incompatibility between the kernel in Ubuntu 16.04.2 and our version of the drivers for Blackmagic and Datapath cards it's required to install the 4.4.0-81 kernel.
-
-apt-get -y --force-yes install linux-headers-4.4.0-81 linux-headers-4.4.0-81-generic linux-image-4.4.0-81-generic linux-image-extra-4.4.0-81-generic
-apt-get -y --force-yes remove linux-headers-4.8.* linux-image-4.8.*
-
-
-
 2. Install NDI SDK by running the install .sh Linux SDK from:
  
 http://pages.newtek.com/NDI-Developers-SDK-Download-Link.html 
