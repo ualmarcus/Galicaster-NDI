@@ -50,9 +50,13 @@ sudo cp -r 'NDI SDK for Linux/lib/x86_64-linux-gnu' /usr/lib
 4. Install Galicaster from the repository (to ensure dependencies are met) by running the following commands (each as a separate command):
 
 echo "deb https://packages.galicaster.org/apt xenial main" | sudo tee --append /etc/apt/sources.list.d/galicaster.list
+
 wget -O - https://packages.galicaster.org/apt/galicaster.gpg.key  | sudo apt-key add -
+
 sudo apt-get update
+
 sudo apt-get install gstreamer1.0-plugins-good gir1.2-gstreamer-1.0 #Required to solve #298 and #29
+
 sudo apt-get install galicaster
 
 [select 'y' press return when prompted]
