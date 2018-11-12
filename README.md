@@ -84,9 +84,11 @@ https://github.com/teltek/gst-plugin-ndi/releases
 to Ubuntu ~/Downloads and move libgstndi.so - copy this to the /usr/lib/x86_64-linux-gnu/gstreamer-1.0/ directory for GStreamer to load the University of the Arts and University of Manchester funded element:
 
 sudo cp '/home/galicaster/Downloads/libgstndi.so'  /usr/lib/x86_64-linux-gnu/gstreamer-1.0/
+
 sudo ldconfig
 
 test with:
+
 gst-inspect-1.0 ndi
 
 Then Test an NDI Source with Gstreamer works outside of Galicaster:
