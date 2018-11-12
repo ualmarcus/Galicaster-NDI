@@ -18,14 +18,12 @@ if installed in a VM use:
 ```
 sudo apt-get install open-vm-tools open-vm-tools-desktop 
 ```
-instead of VMware tools.
-
-Restart to enable vm tools with:
+instead of VMware tools and restart to enable vm tools with:
 ```
 sudo shutdown -r now
 ```
 
-2. Install NDI SDK by running the install .sh Linux SDK from:
+[2] Install NDI SDK by running the install .sh Linux SDK from:
 ------- 
 http://pages.newtek.com/NDI-Developers-SDK-Download-Link.html 
 - click the 'linux' link.
@@ -42,13 +40,13 @@ sudo ./InstallNDISDK_v3_Linux.sh
 
 The Linux NDI 3.7.1 SKD will be extracted to ~/Downloads 
 
-3. Move the files from the extracted 'NDI SDK for Linux' folder in ~/galicaster/Downlods into place with:
+[3] Move the files from the extracted 'NDI SDK for Linux' folder in ~/galicaster/Downlods into place with:
 -------
 ```
 sudo cp -r 'NDI SDK for Linux/lib/x86_64-linux-gnu' /usr/lib
 ```
 
-4. Install Galicaster from the repository (to ensure dependencies are met) by running the following commands (each as a separate command):
+[4] Install Galicaster from the repository (to ensure dependencies are met) by running the following commands (each as a separate command):
 -------
 ```
 echo "deb https://packages.galicaster.org/apt xenial main" | sudo tee --append /etc/apt/sources.list.d/galicaster.list
@@ -68,7 +66,7 @@ with config files at:
 /etc/galicaster/
 ```
 
-4.5 Install Galicaster with NDI Feature in a separate location [e.g. ~/Desktop]:
+[4.5] Install Galicaster with NDI Feature in a separate location [e.g. ~/Desktop]:
 -------
 
 [Note - the 'feature_ndi' from https://github.com/teltek/Galicaster/tree/feature_ndi is no longer required as the feature has been folded into the Master Branch, the version in the repository in the previous step does not yet have the NDI feature] 
@@ -78,7 +76,7 @@ https://github.com/teltek/Galicaster/archive/master.zip
 [click / download a zip and the extract to the desktop preserving folder structure]
 
 
-5. Download the compiled GStreamer element 'libgstndi.so' available from:
+[5] Download the compiled GStreamer element 'libgstndi.so' available from:
 -------
 
 https://github.com/teltek/gst-plugin-ndi/releases 
@@ -137,7 +135,7 @@ test with:
 dpkg -l | grep gstreamer
 
 
-6. Add the ndiexample2.ini profile from this Github repository to the Galicaster profiles directory [which overrides the local /profiles folder in ~/Deskop/Galicaster-Master/] at:
+[6] Add the ndiexample2.ini profile from this Github repository to the Galicaster profiles directory [which overrides the local /profiles folder in ~/Deskop/Galicaster-Master/] at:
 -------
 ```
 /etc/galicaster/profiles
@@ -177,7 +175,7 @@ vumeter = True
 amplification = 1.0
 
 
-7. Finally -  Run the NDI feature version of Galicaster-master from the desktop:
+[7] Finally -  Run the NDI feature version of Galicaster-master from the desktop:
 -------
 '/home/galicaster/Desktop/Galicaster-master/run_galicaster.py'
 
