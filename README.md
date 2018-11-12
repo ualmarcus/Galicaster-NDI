@@ -13,9 +13,11 @@ Install:
 if installed in a VM use: 
 
 sudo apt-get install open-vm-tools open-vm-tools-desktop 
+
 instead of VMware tools.
 
 Restart to enable vm tools with:
+
 sudo shutdown -r now
 
 
