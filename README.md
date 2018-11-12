@@ -89,7 +89,7 @@ sudo ldconfig
 gst-inspect-1.0 ndi
 ```
 Should return:
-```py
+```
 galicaster@galicaster-ndi:/usr/lib/x86_64-linux-gnu/gstreamer-1.0$ gst-inspect-1.0 ndi
 Plugin Details:
   Name                     ndi
@@ -151,7 +151,7 @@ or the IP followed by the port for the steam: 10.80.80.12:596x (5961 is the firs
 You can add multiple NDI sources with or without thier embeded audio as well as seperate Audio Only tracks - performance above 1x video track will vary [Audio is currently claiming more resource than expected]. 
 
 Example NDI confugration profile 'ndiexample.ini' :
-```
+```py
 [data]
 name = NDI (audio track + video track)
 
