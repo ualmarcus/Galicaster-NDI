@@ -151,7 +151,7 @@ or the IP followed by the port for the steam: 10.80.80.12:596x (5961 is the firs
 You can add multiple NDI sources with or without thier embeded audio as well as seperate Audio Only tracks - performance above 1x video track will vary [Audio is currently claiming more resource than expected]. 
 
 Example NDI confugration profile 'ndiexample.ini' :
-```py
+```.ini
 [data]
 name = NDI (audio track + video track)
 
