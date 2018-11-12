@@ -33,7 +33,9 @@ this will download InstallNDISDK_v3_Linux.sh to ~/Downloads
 then:
 
 cd ~/Downloads
+
 sudo chmod +x InstallNDISDK_v3_Linux.sh
+
 sudo ./InstallNDISDK_v3_Linux.sh
 
 [keep pressing the space bar until you see a Y/n prompt and type 'y' then press return]
