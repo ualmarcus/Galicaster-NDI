@@ -148,15 +148,16 @@ gst-inspect-1.0 ndiviseosrc
 /etc/galicaster/profiles
 
 Edit to fit the target NDI source. You can use the mDNS NDI syntax: SOMETHING.LOCAL (NDI Stream Name) 
-or the IP followed by the port for the steam: 10.80.89.12:596x (5961 is the first stream, 5962 is the second from the same IP etc).
+or the IP followed by the port for the steam: 10.80.80.12:596x (5961 is the first stream, 5962 is the second from the same IP etc).
+
+Note - The mDNS name is case sensitive
 
 You can add multiple NDI sources - performance above 1x video track will vary. 
 
 Make sure the permissions for the resource folder are correct:
-
 sudo chown -R galicaster:galicaster /etc/galicaster
 
-Example ndi,ini:
+Example NDI confugration profile 'ndiexample.ini' :
 
 
 [data]
