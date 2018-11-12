@@ -194,8 +194,4 @@ amplification = 1.0
 
 (Currently, you may need to select an NDI source profile, quit, then reopen Galicaster if the track count is less than the previously used profile)
 
-Galicaster with NDI feature is here:
-https://github.com/teltek/Galicaster/tree/feature_ndi 
-
-Installs in /usr/share/galicaster with config files at /etc/galicaster/
 
