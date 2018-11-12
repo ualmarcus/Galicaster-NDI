@@ -89,7 +89,7 @@ sudo ldconfig
 gst-inspect-1.0 ndi
 ```
 Should return:
-```
+```py
 galicaster@galicaster-ndi:/usr/lib/x86_64-linux-gnu/gstreamer-1.0$ gst-inspect-1.0 ndi
 Plugin Details:
   Name                     ndi
