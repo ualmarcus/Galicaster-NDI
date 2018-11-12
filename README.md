@@ -1,12 +1,14 @@
 # Galicaster-NDI
 Documentation for installation of a Teltek Galicaster Lecture Capture agent for NDI sources
 
+Resources Required:
+
 [1] https://github.com/teltek/gst-plugin-ndi
 [2] https://github.com/teltek/gst-plugin-ndi/releases
 [3] https://github.com/teltek/Galicaster/tree/master
 
 
-Install:
+Install Guide 64 Bit Ubuntu:
 
 1. Install / Update Ubuntu LTS 16.04.5 with 'galicaster' as user [UK HEI mirror http://www.mirrorservice.org/sites/releases.ubuntu.com/] 
 
