@@ -73,7 +73,7 @@ with config files at:
 
 use:
 https://github.com/teltek/Galicaster/archive/master.zip
-[click / download a zip and the extract to the desktop preserving folder structure]
+[click / download a zip and then right-click to extract to the ~/Desktop preserving folder structure]
 
 
 [5] Download the compiled GStreamer element 'libgstndi.so' available from:
